@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3B6E7D6-51F9-4142-A786-4D7266FA319B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vista</RootNamespace>
+    <AssemblyName>Vista</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actualizar_pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_pedido.Designer.cs">
+      <DependentUpon>Actualizar_pedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_venta.Designer.cs">
+      <DependentUpon>Actualizar_venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dotaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dotaciones.Designer.cs">
+      <DependentUpon>Dotaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graficas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graficas.Designer.cs">
+      <DependentUpon>Graficas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maquinarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maquinarias.Designer.cs">
+      <DependentUpon>Maquinarias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mi_perfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mi_perfil.Designer.cs">
+      <DependentUpon>Mi_perfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedidos.Designer.cs">
+      <DependentUpon>Pedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Actualizar_pedido.resx">
+      <DependentUpon>Actualizar_pedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_venta.resx">
+      <DependentUpon>Actualizar_venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dotaciones.resx">
+      <DependentUpon>Dotaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graficas.resx">
+      <DependentUpon>Graficas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maquinarias.resx">
+      <DependentUpon>Maquinarias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mi_perfil.resx">
+      <DependentUpon>Mi_perfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedidos.resx">
+      <DependentUpon>Pedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores.resx">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportesvi.resx">
+      <DependentUpon>Reportesvi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transacciones.resx">
+      <DependentUpon>Transacciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas_individuales.resx">
+      <DependentUpon>Ventas_individuales.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores.Designer.cs">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportesvi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportesvi.Designer.cs">
+      <DependentUpon>Reportesvi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transacciones.Designer.cs">
+      <DependentUpon>Transacciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios.Designer.cs">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas_individuales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas_individuales.Designer.cs">
+      <DependentUpon>Ventas_individuales.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giro01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giro011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\can-stock-photo_csp3516471.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-add-icon.png" />
+    <None Include="Resources\helado2.png" />
+    <None Include="Resources\SegundoCar.png" />
+    <None Include="Resources\SegundoCan.png" />
+    <None Include="Resources\helado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Segundohelado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12167004_960486767325992_1970968886_n %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12167004_960486767325992_1970968886_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\segundobuscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\segundobuscar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finance-56-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finance-56-128 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-1281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\010_x-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dota.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dota2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notificacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notificacion2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lógica\Lógica.csproj">
+      <Project>{CF18AA29-E3C4-4016-9D8B-A20E38E72791}</Project>
+      <Name>Lógica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maquinaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maquinaria2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
