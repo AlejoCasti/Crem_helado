@@ -509,42 +509,10 @@ as
 select Numero_identificacion as ID, Nombre_cliente as Nombre, Correo_cliente as "e-mail", telefono_cliente as Teléfono, Dirección_cliente as Dirección 
 from cliente where Nombre_cliente like ''+@Nombre +'%'
 
-
-------------------------------------------------------------------------------- Consultas ----------------------------------------------------------------------------------------
-
-select * from pedido
-select * from Detalle_pedido
-select * from producto
-select * from Empleado
-select * from detalle_venta
-select * from venta
-select * from consultar_clientes
-select * from transaccion
-delete pedido
-delete Proveedor
-delete detalle_venta
-delete venta
-delete transaccion
-delete detalle_pedido
-update producto set existencia_producto = 20 where codigo_producto > 0
-update empleado set Nombre_usu = '""', contraseña = '""'
-select Pedido.Codigo as Código, Pedido.Fecha_pedido as Fecha, Empleado.Nombre_Empleado as Nombre, Pedido.Valor_total as Total from pedido inner join Empleado on Pedido.Nombre_usu = Empleado.Nombre_usu
-update pedido set fecha_entrega = '20/05/2016' where codigo_pedido >0
-update producto set existencia_producto =70 where codigo_producto >0
-*----------------------------------------------------------------------------------------Inicio---------------------------------------------------------------------------------------------------------*
+*--------------------------------------------------------------------------------------- end of execute -------------------------------------------------------------------------------------------------------------*
+*----------------------------------------------------------------------------------------Testing information---------------------------------------------------------------------------------------------------------*
 insert into empleado values('admin','Juandro','admin',1234567890,987987987,'juandro@cremhelado.com','Activo','Administrador')
 insert into cliente values (65423,'Aleblo','aleblo@gmail.com',5789641,'cll68#ss42')
 insert into Venta values ('raven',65423,'30/05/2016','Individual',1000)
 insert into Transaccion values (null,null,'Empresarial','30/05/2016',100000,null,1000000)
 
-Select  Cliente.Nombre_cliente, Venta.Fecha_venta, Venta.Valor_total from Cliente inner join Venta on Cliente.Numero_identificacion = Venta.Numero_identificacion  
-select * from Consulta_transaccion
-
-
-
------------------------------------------------------------------ Microempresa BETA ------------------------------------------------------------------------------------------------------------------------
-
-insert into empleado values('Lucho','Luis Guillermo Castiblanco Romero','4572',3021500,5719504,'me.mito057@hotmail.com','Activo','Administrador')
-insert into Transaccion values (null,null,'Empresarial','12/11/2016',null,null,2000000)
-
-select *from 
