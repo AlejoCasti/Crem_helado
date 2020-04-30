@@ -1,0 +1,30 @@
+J:\Crem Helado\Datos\bin\Release\Datos.dll
+J:\Crem Helado\Datos\bin\Release\Datos.pdb
+J:\Crem Helado\Datos\obj\Release\ResolveAssemblyReference.cache
+J:\Crem Helado\Datos\obj\Release\Datos.dll
+J:\Crem Helado\Datos\obj\Release\Datos.pdb
+F:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.dll
+F:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.pdb
+F:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\ResolveAssemblyReference.cache
+F:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.dll
+F:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.pdb
+I:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.dll
+I:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.pdb
+I:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\ResolveAssemblyReference.cache
+I:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.dll
+I:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.pdb
+M:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.dll
+M:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.pdb
+M:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\ResolveAssemblyReference.cache
+M:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.dll
+M:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.pdb
+E:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.dll
+E:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.pdb
+E:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\ResolveAssemblyReference.cache
+E:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.dll
+E:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.pdb
+J:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.dll
+J:\Proyecto SENA Raven\Crem Helado\Datos\bin\Release\Datos.pdb
+J:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\ResolveAssemblyReference.cache
+J:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.dll
+J:\Proyecto SENA Raven\Crem Helado\Datos\obj\Release\Datos.pdb
