@@ -6,7 +6,7 @@ create table Empleado
 (
 Nombre_usu nvarchar (30) primary key,
 Nombre_empleado nvarchar (50) not null, 
-Contraseña nvarchar (50) not null,
+ContraseÃ±a nvarchar (50) not null,
 ID_Usuario bigint not null,
 Telefono_usuario bigint not null,
 Correo_usuario nvarchar(50) not null,
@@ -32,7 +32,7 @@ create table Proveedor
 Nit_proveedor bigint primary key,
 Nombre_proveedor nvarchar (50) not null,
 Direccion nvarchar (50) not null,
-Teléfono bigint not null,
+TelÃ©fono bigint not null,
 Correo_proveedor nvarchar (50) 
 )
 
@@ -42,7 +42,7 @@ Numero_identificacion bigint primary key,
 Nombre_cliente nvarchar (50) not null,
 Correo_cliente nvarchar (50),
 Telefono_cliente bigint not null,
-Dirección_cliente nvarchar (50) not null
+DirecciÃ³n_cliente nvarchar (50) not null
 )
 
 create table Venta 
@@ -156,20 +156,20 @@ end
 go
 create procedure loggin
 @nombre nvarchar (30),
-@contraseña nvarchar(30),
+@contraseÃ±a nvarchar(30),
 @logg int output,
 @mensaje nvarchar(50)output
 as
 Select @logg=count(h.Nombre_usu) from Empleado h
-where Nombre_usu = @nombre and Contraseña = @contraseña
+where Nombre_usu = @nombre and ContraseÃ±a = @contraseÃ±a
 if (@logg > 0) 
 select @mensaje = 'Bienvenido '+h.cargo_usuario+' '+h.Nombre_Empleado from Empleado h
-where Nombre_usu = @nombre and Contraseña = @contraseña 
+where Nombre_usu = @nombre and ContraseÃ±a = @contraseÃ±a 
 go
 create procedure Registrar_Usu
 @Nombre_usu nvarchar (30),
 @Nombre_Empleado nvarchar (50),
-@Contraseña_usu nvarchar (50),
+@ContraseÃ±a_usu nvarchar (50),
 @ID_usu bigint,
 @Telefono_usu bigint,
 @Correo_usu nvarchar (50),
@@ -182,13 +182,13 @@ Select @Contador = count (Nombre_usu) from Empleado where Nombre_usu = @Nombre_u
 if (@Contador > 0)
 select @mensaje = 'El usuario ya ha sido registrado'
 else
-insert into Empleado values (@Nombre_usu, @Nombre_Empleado, @Contraseña_usu, @ID_usu, @Telefono_usu, @Correo_usu, @Estado_usu, @Cargo_usu)
+insert into Empleado values (@Nombre_usu, @Nombre_Empleado, @ContraseÃ±a_usu, @ID_usu, @Telefono_usu, @Correo_usu, @Estado_usu, @Cargo_usu)
 select * from Empleado
 go
 create proc Actualizar_usu
 @Nombre_usu nvarchar (30),
 @Nombre_Empleado nvarchar (50),
-@Contraseña_usu nvarchar (50),
+@ContraseÃ±a_usu nvarchar (50),
 @ID_usu bigint,
 @Telefono_usu bigint,
 @Correo_usu nvarchar (50),
@@ -196,14 +196,14 @@ create proc Actualizar_usu
 @Cargo_usu nvarchar (20)
 as
 begin
-update Empleado set  Nombre_empleado = @Nombre_Empleado, Contraseña = @Contraseña_usu, ID_usuario = @ID_usu, Telefono_usuario = @Telefono_usu, Correo_usuario = @Correo_usu, Estado_Usuario = @Estado_usu, Cargo_Usuario = @Cargo_usu where Nombre_usu = @Nombre_usu
+update Empleado set  Nombre_empleado = @Nombre_Empleado, ContraseÃ±a = @ContraseÃ±a_usu, ID_usuario = @ID_usu, Telefono_usuario = @Telefono_usu, Correo_usuario = @Correo_usu, Estado_Usuario = @Estado_usu, Cargo_Usuario = @Cargo_usu where Nombre_usu = @Nombre_usu
 Select * from Empleado
 End
 go
 create proc Actualizar_usu2
 @Nombre_usu nvarchar (30),
 @Nombre_Empleado nvarchar (50),
-@Contraseña_usu nvarchar (50),
+@ContraseÃ±a_usu nvarchar (50),
 @ID_usu bigint,
 @Telefono_usu bigint,
 @Correo_usu nvarchar (50),
@@ -238,7 +238,7 @@ create proc Actualizar_cli
 @Direccion_cliente nvarchar (50)
 as
 begin
-update Cliente set Nombre_cliente = @Nombre_cliente, Correo_cliente = @Correo_cliente, Telefono_cliente = @Telefono_cliente, Dirección_cliente = @Direccion_cliente where Numero_identificacion = @Numero_identificacion
+update Cliente set Nombre_cliente = @Nombre_cliente, Correo_cliente = @Correo_cliente, Telefono_cliente = @Telefono_cliente, DirecciÃ³n_cliente = @Direccion_cliente where Numero_identificacion = @Numero_identificacion
 End
 ---------------------------------------------------------------------------------- Venta ------------------------------------------------------------------------------------------
 go
@@ -304,11 +304,11 @@ create proc Actualizar_Prove
 @Correo_proveedor nvarchar (50)
 as
 begin
-update Proveedor set  Nombre_proveedor = @Nombre_proveedor, Direccion = @Direccion, Teléfono = @Telefono, Correo_proveedor = @Correo_proveedor where Nit_proveedor = @Nit_proveedor
+update Proveedor set  Nombre_proveedor = @Nombre_proveedor, Direccion = @Direccion, TelÃ©fono = @Telefono, Correo_proveedor = @Correo_proveedor where Nit_proveedor = @Nit_proveedor
 Select * from Proveedor
 End
 go
------------------------------------------------------------------------------ Dotación ---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------- DotaciÃ³n ---------------------------------------------------------------------------------------
 create proc Registrar_dotacion 
 @Nombre_dotacion nvarchar (50),
 @Cantidad_dotacion int,
@@ -381,7 +381,7 @@ create proc Actualizar_maquinaria
 as
 update Maquinaria set Nombre_maquinaria = @Nombre, Nombre_usu = @Nombre_usu, Fecha_cambio = @Fecha, Tipo_maquina = @Tipo, Estado_maquina = @Estado where Codigo_maquinaria = @Codigo
 go
------------------------------------------------------------------------------ Transacción ---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------- TransacciÃ³n ---------------------------------------------------------------------------------------
 create procedure Registrar_trans
 @Codigo_pedido bigint,
 @Codigo_venta bigint,
@@ -409,7 +409,7 @@ update transaccion set gastos_trans = @gastos, Capital_total = @Total where Codi
 go
 create view Consulta_transaccion
 as
-select Codigo, Codigo_pedido as "Codigo pedido", Codigo_venta as "Codigo Venta", Descripcion as Descripción, Fecha_trans as Fecha, Ingresos_trans as Ingresos, Gastos_trans as Gastos, Capital_total as "Capital actual" from transaccion where Descripcion = 'Empresarial'
+select Codigo, Codigo_pedido as "Codigo pedido", Codigo_venta as "Codigo Venta", Descripcion as DescripciÃ³n, Fecha_trans as Fecha, Ingresos_trans as Ingresos, Gastos_trans as Gastos, Capital_total as "Capital actual" from transaccion where Descripcion = 'Empresarial'
 ---------------------------------------------------------------------------------- Vistas -------------------------------------------------------------------------------------------
 go
 create view Consulta_transaccion2
@@ -426,7 +426,7 @@ select c.Nombre_cliente as Nombre, v.Valor_total as Total, e.Nombre_empleado as 
 go
 create view consulta_empleado
 as
-Select nombre_usu as Usuario, nombre_empleado as Nombres, ID_usuario as ID, Telefono_usuario as Teléfono, Correo_usuario as "E-mail", Estado_usuario as Estado, cargo_usuario as Cargo from Empleado
+Select nombre_usu as Usuario, nombre_empleado as Nombres, ID_usuario as ID, Telefono_usuario as TelÃ©fono, Correo_usuario as "E-mail", Estado_usuario as Estado, cargo_usuario as Cargo from Empleado
 go
 create procedure multi
 @Fecha nvarchar (100)
@@ -449,7 +449,7 @@ select producto.nombre_producto as Nombre, detalle_pedido.cantidad_producto as "
 go
 create view consulta_producto
 as
-select Codigo, Nombre_producto as Nombre, Existencia_producto as Existencia, Cantidad_caja as "Cantidad por caja", Costo_caja as "Costo por caja", Precio_mayor as "Precio por mayor", Precio_vendedor as "Precio al vendedor", Precio_publico as "Precio al Público" from producto
+select Codigo, Nombre_producto as Nombre, Existencia_producto as Existencia, Cantidad_caja as "Cantidad por caja", Costo_caja as "Costo por caja", Precio_mayor as "Precio por mayor", Precio_vendedor as "Precio al vendedor", Precio_publico as "Precio al PÃºblico" from producto
 go
 create proc consultar_llegada
 @fecha nvarchar(30)
@@ -458,7 +458,7 @@ select * from pedido where fecha_entrega = @fecha
 go
 create view Consulta_cliente
 as
-select Numero_identificacion as ID, Nombre_cliente as Nombres, Correo_cliente as "e-mail", telefono_cliente as Teléfono, Dirección_cliente as Dirección from cliente 
+select Numero_identificacion as ID, Nombre_cliente as Nombres, Correo_cliente as "e-mail", telefono_cliente as TelÃ©fono, DirecciÃ³n_cliente as DirecciÃ³n from cliente 
 go
 Create proc Consulta_3venta
 @Codigo_ven nvarchar (50),
@@ -476,13 +476,13 @@ go
 create proc busca_producto
 @Nombre nvarchar (100)
 as
-select Codigo, Nombre_producto as Nombre, Existencia_producto as Existencia, Cantidad_caja as "Cantidad por caja", Costo_caja as "Costo por caja", Precio_mayor as "Precio por mayor", Precio_vendedor as "Precio al vendedor", Precio_publico as "Precio al Público" 
+select Codigo, Nombre_producto as Nombre, Existencia_producto as Existencia, Cantidad_caja as "Cantidad por caja", Costo_caja as "Costo por caja", Precio_mayor as "Precio por mayor", Precio_vendedor as "Precio al vendedor", Precio_publico as "Precio al PÃºblico" 
 from producto where Nombre_producto like @Nombre+'%'
 go
 create proc busca_empleado
 @Nombre nvarchar(100)
 as
-Select nombre_usu as Usuario, nombre_empleado as Nombres, ID_usuario as ID, Telefono_usuario as Teléfono, Correo_usuario as "E-mail", Estado_usuario as Estado, cargo_usuario as Cargo 
+Select nombre_usu as Usuario, nombre_empleado as Nombres, ID_usuario as ID, Telefono_usuario as TelÃ©fono, Correo_usuario as "E-mail", Estado_usuario as Estado, cargo_usuario as Cargo 
 from Empleado where nombre_empleado like '%'+@nombre+'%'
 go 
 create proc busca_maquinaria
@@ -494,7 +494,7 @@ go
 create proc busca_proveedor
 @Nombre nvarchar(100)
 as
-select Nit_proveedor as Nit, Nombre_proveedor as Nombre, Direccion, Teléfono, Correo_proveedor as Correo 
+select Nit_proveedor as Nit, Nombre_proveedor as Nombre, Direccion, TelÃ©fono, Correo_proveedor as Correo 
 from Proveedor where Nombre_proveedor like @Nombre+'%'
 go
 create proc busca_dotacion
@@ -506,7 +506,7 @@ go
 create proc busca_cliente 
 @Nombre nvarchar (100)
 as 
-select Numero_identificacion as ID, Nombre_cliente as Nombre, Correo_cliente as "e-mail", telefono_cliente as Teléfono, Dirección_cliente as Dirección 
+select Numero_identificacion as ID, Nombre_cliente as Nombre, Correo_cliente as "e-mail", telefono_cliente as TelÃ©fono, DirecciÃ³n_cliente as DirecciÃ³n 
 from cliente where Nombre_cliente like ''+@Nombre +'%'
 
 
@@ -527,12 +527,12 @@ delete venta
 delete transaccion
 delete detalle_pedido
 update producto set existencia_producto = 20 where codigo_producto > 0
-update empleado set Nombre_usu = '""', contraseña = '""'
-select Pedido.Codigo as Código, Pedido.Fecha_pedido as Fecha, Empleado.Nombre_Empleado as Nombre, Pedido.Valor_total as Total from pedido inner join Empleado on Pedido.Nombre_usu = Empleado.Nombre_usu
+update empleado set Nombre_usu = '""', contraseÃ±a = '""'
+select Pedido.Codigo as CÃ³digo, Pedido.Fecha_pedido as Fecha, Empleado.Nombre_Empleado as Nombre, Pedido.Valor_total as Total from pedido inner join Empleado on Pedido.Nombre_usu = Empleado.Nombre_usu
 update pedido set fecha_entrega = '20/05/2016' where codigo_pedido >0
 update producto set existencia_producto =70 where codigo_producto >0
 *----------------------------------------------------------------------------------------Inicio---------------------------------------------------------------------------------------------------------*
-insert into empleado values('raven','Juandro','admin',1234567890,987987987,'juandro@cremhelado.com','Activo','Administrador')
+insert into empleado values('admin','Juandro','admin',1234567890,987987987,'juandro@cremhelado.com','Activo','Administrador')
 insert into cliente values (65423,'Aleblo','aleblo@gmail.com',5789641,'cll68#ss42')
 insert into Venta values ('raven',65423,'30/05/2016','Individual',1000)
 insert into Transaccion values (null,null,'Empresarial','30/05/2016',100000,null,1000000)
