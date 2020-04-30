@@ -1,0 +1,76 @@
+I:\Crem Helado\Lógica\obj\Debug\ResolveAssemblyReference.cache
+I:\Crem Helado\Lógica\bin\Debug\Lógica.dll
+I:\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+I:\Crem Helado\Lógica\obj\Debug\Lógica.dll
+I:\Crem Helado\Lógica\obj\Debug\Lógica.pdb
+I:\Crem Helado\Lógica\bin\Debug\Datos.dll
+I:\Crem Helado\Lógica\bin\Debug\Datos.pdb
+J:\Crem Helado\Lógica\bin\Debug\Lógica.dll
+J:\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+J:\Crem Helado\Lógica\bin\Debug\Datos.dll
+J:\Crem Helado\Lógica\bin\Debug\Datos.pdb
+J:\Crem Helado\Lógica\obj\Debug\ResolveAssemblyReference.cache
+J:\Crem Helado\Lógica\obj\Debug\Lógica.dll
+J:\Crem Helado\Lógica\obj\Debug\Lógica.pdb
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.dll
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.dll
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.pdb
+J:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\ResolveAssemblyReference.cache
+J:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.dll
+J:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.pdb
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.dll
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.dll
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.pdb
+I:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\ResolveAssemblyReference.cache
+I:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.dll
+I:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.pdb
+K:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.dll
+K:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+K:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.dll
+K:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.pdb
+K:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\ResolveAssemblyReference.cache
+K:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.dll
+K:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.pdb
+E:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.dll
+E:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+E:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.dll
+E:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.pdb
+E:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\ResolveAssemblyReference.cache
+E:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.dll
+E:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.pdb
+F:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.dll
+F:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+F:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.dll
+F:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.pdb
+F:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\ResolveAssemblyReference.cache
+F:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.dll
+F:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.pdb
+M:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\ResolveAssemblyReference.cache
+M:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.dll
+M:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.dll
+M:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+M:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.dll
+M:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.pdb
+M:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.pdb
+I:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.csproj.ResolveComReference.cache
+J:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.csproj.ResolveComReference.cache
+F:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.csproj.ResolveComReference.cache
+G:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.dll
+G:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+G:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.dll
+G:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.pdb
+G:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\ResolveAssemblyReference.cache
+G:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.csproj.ResolveComReference.cache
+G:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.dll
+G:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.pdb
+E:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.csproj.ResolveComReference.cache
+C:\Users\ALEJO\Desktop\Memoria\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.dll
+C:\Users\ALEJO\Desktop\Memoria\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Lógica.pdb
+C:\Users\ALEJO\Desktop\Memoria\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.dll
+C:\Users\ALEJO\Desktop\Memoria\Proyecto SENA Raven\Crem Helado\Lógica\bin\Debug\Datos.pdb
+C:\Users\ALEJO\Desktop\Memoria\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.csprojResolveAssemblyReference.cache
+C:\Users\ALEJO\Desktop\Memoria\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.csproj.ResolveComReference.cache
+C:\Users\ALEJO\Desktop\Memoria\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.dll
+C:\Users\ALEJO\Desktop\Memoria\Proyecto SENA Raven\Crem Helado\Lógica\obj\Debug\Lógica.pdb

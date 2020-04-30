@@ -1,0 +1,52 @@
+J:\Crem Helado\Lógica\bin\Release\Lógica.dll
+J:\Crem Helado\Lógica\bin\Release\Lógica.pdb
+J:\Crem Helado\Lógica\bin\Release\Datos.dll
+J:\Crem Helado\Lógica\bin\Release\Datos.pdb
+J:\Crem Helado\Lógica\obj\Release\ResolveAssemblyReference.cache
+J:\Crem Helado\Lógica\obj\Release\Lógica.dll
+J:\Crem Helado\Lógica\obj\Release\Lógica.pdb
+F:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.dll
+F:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.pdb
+F:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.dll
+F:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.pdb
+F:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\ResolveAssemblyReference.cache
+F:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.dll
+F:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.pdb
+I:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\ResolveAssemblyReference.cache
+I:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.dll
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.dll
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.pdb
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.dll
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.pdb
+I:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.pdb
+M:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\ResolveAssemblyReference.cache
+M:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.dll
+E:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.dll
+E:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.pdb
+E:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.dll
+E:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.pdb
+E:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\ResolveAssemblyReference.cache
+E:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.dll
+E:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.pdb
+M:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.dll
+M:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.pdb
+M:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.dll
+M:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.pdb
+M:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.pdb
+I:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.csproj.ResolveComReference.cache
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.dll
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Lógica.pdb
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.dll
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\Datos.pdb
+J:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\ResolveAssemblyReference.cache
+J:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.csproj.ResolveComReference.cache
+J:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.dll
+J:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.pdb
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\itextsharp.dll
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\itextsharp.pdfa.dll
+J:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\itextsharp.xtra.dll
+F:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.csproj.ResolveComReference.cache
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\itextsharp.dll
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\itextsharp.pdfa.dll
+I:\Proyecto SENA Raven\Crem Helado\Lógica\bin\Release\itextsharp.xtra.dll
+E:\Proyecto SENA Raven\Crem Helado\Lógica\obj\Release\Lógica.csproj.ResolveComReference.cache
