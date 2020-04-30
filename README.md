@@ -10,3 +10,14 @@ This project is a desktop application for a "Crem Helado" microcompany in which 
 ## SCOPE
 Personal data can be consulted, registered and updated as well as products, sales and orders. Any person who has a role in the microenterprise will have to be registered in the system. The employee can only register users with an employee role. The administrator will be in charge of registering all kinds of users and clients.
 
+## DATABASE
+To create the database it is necessary to have the SQL server installed and execute all the command lines up to the testing information.
+Name: admin
+Password: admin
+
+## EXECUTE PROJECT
+Crem Helado.exe is the shortcut of the executable.
+The executable file is:
+````bash
+/vista/bin/Debug/Vista.exe
+````
