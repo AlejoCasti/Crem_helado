@@ -13,7 +13,7 @@ namespace Datos
 
         public SqlConnection conexion()
         {
-            SqlConnection conexión = new SqlConnection("data source = CRISTIAN-PC\\SQLEXPRESS;Database =Crem_Helado;Integrated Security = true");
+            SqlConnection conexión = new SqlConnection("data source = *\\SQLEXPRESS;Database =Crem_Helado;Integrated Security = true");
             return conexión;
         }
     }
